@@ -192,7 +192,7 @@ function App() {
         textThreeTwo.current,
 
         {
-          x: "-100%",
+          x: "-150%",
           zIndex: 0,
           delay: 1.5,
           duration: 1,
