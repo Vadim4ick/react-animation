@@ -1,0 +1,144 @@
+@import url("./reset.scss");
+
+.banner {
+  &__container {
+    max-width: 1750px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  &__body {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1.17fr 0.63fr;
+    overflow: hidden;
+    grid-template-rows: 0.58fr 0.42fr;
+
+    gap: 20px 20px;
+    grid-template-areas:
+      "div1 div2"
+      "div1 div3";
+  }
+
+  &__block {
+    position: relative;
+    border-radius: 32px;
+  }
+}
+
+.one {
+  grid-area: div1;
+  max-height: 730px;
+  overflow: hidden;
+  z-index: 5;
+}
+.two {
+  grid-area: div2;
+  background: #edeff1;
+  overflow: hidden;
+
+  height: 410px;
+}
+.three {
+  grid-area: div3;
+  background: #edeff1;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 12px 32px 32px;
+}
+
+video {
+  width: 100%;
+  overflow: hidden;
+  height: calc(100% + 1px);
+  object-fit: cover;
+
+  border-radius: 32px;
+
+  sourse {
+    border-radius: 32px;
+  }
+}
+
+.image {
+  width: 518px;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.two p {
+  font-size: 28px;
+
+  max-width: 235px;
+
+  position: absolute;
+  top: 45px;
+  left: 33px;
+  z-index: 1;
+}
+
+.three {
+  &__body {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  &__title {
+    font-size: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__bottom {
+    width: 270px;
+    height: 55px;
+    border: 1px solid #181818;
+    border-radius: 100px;
+  }
+}
+
+.three-block {
+  background: white;
+  width: 185px;
+  flex: 0 0 auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  &__section {
+  }
+
+  &__title {
+    font-size: 14px;
+    color: #7f7f7f;
+    text-align: center;
+  }
+
+  &__price {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  &__total {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  &__blocks {
+    position: relative;
+  }
+}
