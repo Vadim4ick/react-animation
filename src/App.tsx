@@ -105,7 +105,7 @@ function App() {
   const blockInfo = useRef<HTMLParagraphElement>(null);
   const blockInfoTwo = useRef<HTMLParagraphElement>(null);
 
-  const [currentIdx, setCurrentIdx] = useState(0);
+  const [currentIdx] = useState(0);
 
   useGSAP(
     () => {
