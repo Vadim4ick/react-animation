@@ -6,12 +6,12 @@ import { useGSAP } from "@gsap/react";
 const bannerContent = [
   {
     one: {
-      video: "/public/videos/Brending.mp4",
+      video: "public/videos/Brending.mp4",
     },
 
     two: {
       title: "Реализованных проектов",
-      img: "/public/img/100@2x.png",
+      img: "public/img/100@2x.png",
     },
 
     three: {
