@@ -33,12 +33,12 @@ const bannerContent = [
   },
   {
     one: {
-      video: "/public/videos/Design.mp4",
+      video: "/videos/Design.mp4",
     },
 
     two: {
       title: "проведенных исследований",
-      img: "/public/img/50@2x.png",
+      img: "/img/50@2x.png",
     },
 
     three: {
@@ -60,12 +60,12 @@ const bannerContent = [
   },
   {
     one: {
-      video: "/public/videos/Issled.mp4",
+      video: "/videos/Issled.mp4",
     },
 
     two: {
       title: "долгосрочных партнЁров",
-      img: "/public/img/15@2x.png",
+      img: "/img/15@2x.png",
     },
 
     three: {
